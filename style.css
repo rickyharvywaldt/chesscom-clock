@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.timer-box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    background-color: #111;
+    color: #fff;
+    width: 30rem;
+    height: 10rem;
+    border-radius: 1rem;
+    user-select: none;
+}
+
+.timer-box:hover {
+    cursor: pointer;
+}
