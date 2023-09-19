@@ -1,6 +1,7 @@
 const button = document.querySelector(".timer-box");
 let clickCounter = 0;
-let duration = 1 * 60; // 1 minute in seconds
+const startTimeInMinutes = 1;
+let duration = startTimeInMinutes * 60; // 1 minute in seconds
 let timerInterval;
 
 button.addEventListener("click", (event) => {
